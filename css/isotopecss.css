@@ -1,0 +1,212 @@
+#portfolio{
+ padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+#portfolio h2{
+   
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+#portfolio p{
+  font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  border: none;
+  color: #000;
+  font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;;
+ outline: none;
+  cursor: pointer;
+    margin-bottom: 40px;
+    background-color: #00BB59;
+    
+}
+
+.button:hover {
+ margin-bottom: 40px;
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+/*  background-color: #000;*/
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+
+.button-group .button {
+  
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left; 
+width: 33%;
+  color: #262524;
+    border: 8px solid whitesmoke;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.element-item img{
+  width: 100%;
+  
+    
+}
+.isotope-overlay{
+    position: absolute;
+    background: rgba(33, 205, 114,0.7);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+  transition: .7s;
+    transform: scale(1);
+    
+}
+
+.element-item:hover .isotope-overlay{
+    top: 0;
+    border-radius: 15px;
+      transition: .7s;
+    transform: scale(1.2);
+    
+    
+}
+.isotope-overlay h4{
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+.isotope-overlay p{
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 80px;
+    color: white;
+    
+}
+/* start ---- testmonial*/
+
+.testmonial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(../image/parallax-4.jpg)no-repeat 100% fixed;
+}
+
+
+
+
+
+
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: green;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p{
+    color: #00BB59;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+    color: darkgreen;
+}
+/* end ---- testmonial*/
+
