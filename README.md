@@ -14,7 +14,7 @@
 ✔Clean Markup <br>
 ✔Creative Design <br>
 ✔Cross Browser Support <br>
-✔Powered With Bootstrap 3 
+✔Powered With Bootstrap 3 <br>
 ✔Used font awesome icon <br>
 ✔Google Font <br>
 ✔Google Map <br>
